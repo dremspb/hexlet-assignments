@@ -1,0 +1,9 @@
+bulletin1:
+  title: "First bulletin"
+  body: "This is the first bulletin"
+  published: true
+
+bulletin2:
+  title: "Second bulletin"
+  body: "This is the second bulletin"
+  published: false
