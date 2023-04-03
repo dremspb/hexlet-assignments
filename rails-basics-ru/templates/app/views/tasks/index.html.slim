@@ -1,0 +1,31 @@
+h1
+  | Tasks
+table
+  thead
+    tr
+      th
+        | Name
+      th
+        | Description
+      th
+        | Status
+      th
+        | Creator
+      th
+        | Performer
+      th
+        | Completed
+  tbody
+    - @tasks.each do |task|
+      tr
+
+      td
+        = task.name
+      td
+        = task.description
+      td
+        = task.status
+      td
+        = task.performer
+      td
+        = task.completed
